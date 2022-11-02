@@ -32,7 +32,7 @@ section#login{
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.450);
-    transition: whidth .3s, height .3s;
+    transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
 section#login > div#imagem{
@@ -48,9 +48,11 @@ section#login > div#formulario{
 }
 section#login > div#formulario > h1{
     text-align: center;
+    margin-bottom: 10px;
 }
 section#login > div#formulario > p{
     text-align: justify;
+    font-size: 0.8em;
 }
 section#login > div#formulario > form{
 
